@@ -3,10 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <title>Daniel Alcudia</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cardo&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Cardo&family=DM+Serif+Display&family=Open+Sans:wght@300&display=swap"
@@ -34,11 +33,27 @@
                     </ul>
               </div>
               <div class="left-column">
-                  left
+                  <img id="profile_pic" src="images/daniel.jpg" alt="Daniel Alcudia">
+                  <h5 style="text-align: center; line-height: 0;">Personalize Theme</h5>
 
+                  <div id="theme-options-wrapper">
+                      <div id="light-mode" class="theme-dot"></div>
+                      <div id="dark-mode" class="theme-dot"></div>
+                  </div>
+
+                  <p id="settings-note">Theme settings will be saved for <br> your next visit.</p>
               </div>
               <div class="right-column">
-                right
+                  <div id="preview-shadow">
+                      <div id="preview">
+                          <div id="corner-tl" class="corner"></div>
+                          <div id="corner-tr" class="corner"></div>
+                          <h3>What I Do</h3>
+                          <p>I'm a Sofware Engineer and Frontend Developer.</p>
+                          <div id="corner-bl" class="corner"></div>
+                          <div id="corner-br" class="corner"></div>
+                      </div>
+                  </div>
               </div>
           </div>
       </div>
@@ -46,13 +61,83 @@
 
     <section class="s2">
         <div class="main-container">
-            About
+            <div class="about-wrapper">
+                <div class="about-me">
+                    <h4>More about me</h4>
+                    <p>I build new projects just to tickle my brain.</p>
+                    <p>While I keep busy learning new things, I like to read a lot and listen to music.</p>
+
+                    <hr>
+
+                    <h4>Expertise</h4>
+                    <p>
+                        Software Engineer and Frontend developer: <a href="resume.png" target="_blank">Download Resume</a>
+                    </p>
+                    
+                    <div id="skills">
+                        <ul>
+                            <li>Javascript</li>
+                            <li>MySQL</li>
+                            <li>Django</li>
+                            <li>Python</li>
+                            <li>Adobe XD</li>
+                        </ul>
+                        <ul>
+                            <li>Java</li>
+                            <li>Swift</li>
+                            <li>AWS</li>
+                            <li>Heroku</li>
+                            <li>HTML/CSS</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="social-links">
+                    <img id="social_img" src="images/twitter.png" alt="">
+                    <h3>Find me on Twitter & Clubhouse</h3>
+                    <a href="">Twitter: @dnalcudia</a>
+                    <br>
+                    <a href="">Clubhouse: @dnalcudia</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <section class="s1">
         <div class="main-container">
-            Portfolio
+            <h3 style="text-align: center;">Some of my personal projects</h3>
+                <div class="post-wrapper">
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/project1.png" alt="">
+                            <div class="post-preview">
+                                <h6 class="post-title">Kiteboard.com</h6>
+                                <p class="post-intro">This is a sentence.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/project2.png" alt="">
+                            <div class="post-preview">
+                                <h6 class="post-title">Pokédex</h6>
+                                <p class="post-intro">This is a sentence.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="post">
+                            <img class="thumbnail" src="images/project3.png" alt="">
+                            <div class="post-preview">
+                                <h6 class="post-title">M3 JOURNAL</h6>
+                                <p class="post-intro">This is a sentence.</p>
+                                <a href="#">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
     </section>
 
